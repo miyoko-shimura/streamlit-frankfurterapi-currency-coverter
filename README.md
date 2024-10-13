@@ -7,10 +7,10 @@ This is a simple currency converter application built using Streamlit and the Fr
 
 ## Features
 
-- Convert amounts from one currency to another
-- Supports USD, EUR, GBP, and JPY currencies
-- User-friendly interface with input fields and a conversion button
-- Fetches real-time currency exchange rates from the Frankfurter API
+- 💱 Convert amounts from one currency to another
+- 🌍 Supports USD, EUR, GBP, and JPY currencies
+- 👨‍💻 User-friendly interface with input fields and a conversion button
+- 📈 Fetches real-time currency exchange rates from the Frankfurter API
 
 ## Installation
 
