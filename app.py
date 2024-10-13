@@ -32,8 +32,7 @@ if st.button("Convert"):
             st.error(f"An error occurred: {str(e)}")
 
 st.write("---")
-st.write("Acknowledgements")
-st.write("Exchange rates provided by the [Frankfurter API](https://www.frankfurter.app/).")
+st.write("Acknowledgements: Exchange rates provided by the [Frankfurter API](https://www.frankfurter.app/). ")
 
 st.warning(
     """
