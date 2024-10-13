@@ -1,12 +1,12 @@
 import streamlit as st
 import requests
 
-st.title("Simple Currency Converter")
+st.title("Frankfurter API Currency Converter")
 
 # Input fields
 amount = st.number_input("Amount", min_value=0.01, value=1.00, step=0.01)
 base_currency = st.selectbox("From", ["USD", "EUR", "GBP", "JPY"])
-target_currency = st.selectbox("To", ["USD", "EUR", "GBP", "JPY"])
+target_currency = st.selectbox("To", ["EUR", "GBP", "JPY", "USD"])
 
 # Convert button
 if st.button("Convert"):
