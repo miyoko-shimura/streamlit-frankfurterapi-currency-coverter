@@ -1,58 +1,67 @@
-# Streamlit Frankfurter API Currency Coverter
+# Frankfurter API Currency Converter
 
-A simple and efficient currency converter built with Streamlit and powered by the Frankfurter API.
-Features
+This is a simple currency converter application built using Streamlit and the Frankfurter API. It allows users to convert amounts between different currencies.
 
-🌐 Real-time currency conversion
-💱 Support for USD, EUR, GBP, and JPY
-🚀 Fast and responsive interface
-🛠 Easy-to-use Streamlit app
+## Features
 
-Installation
+- Convert amounts from one currency to another
+- Supports USD, EUR, GBP, and JPY currencies
+- User-friendly interface with input fields and a conversion button
+- Fetches real-time currency exchange rates from the Frankfurter API
 
-Clone this repository:
-Copygit clone https://github.com/yourusername/frankfurter-api-currency-converter.git
+## Installation
 
-Navigate to the project directory:
-Copycd frankfurter-api-currency-converter
+1. Clone the repository:
 
-Install the required packages:
-Copypip install -r requirements.txt
+   ```
+   git clone https://github.com/your-username/frankfurter-currency-converter.git
+   ```
 
+2. Navigate to the project directory:
 
-Usage
+   ```
+   cd frankfurter-currency-converter
+   ```
 
-Run the Streamlit app:
-Copystreamlit run app.py
+3. Install the required dependencies:
 
-Open your web browser and go to http://localhost:8501.
-Enter the amount you want to convert, select the base currency and target currency, then click "Convert".
+   ```
+   pip install -r requirements.txt
+   ```
 
-Code Overview
-pythonCopyimport streamlit as st
-import requests
+## Usage
 
-st.title("Frankfurter API Currency Converter")
+1. Run the Streamlit application:
 
-# Input fields
-amount = st.number_input("Amount", min_value=0.01, value=1.00, step=0.01)
-base_currency = st.selectbox("From", ["USD", "EUR", "GBP", "JPY"])
-target_currency = st.selectbox("To", ["EUR", "GBP", "JPY", "USD"])
+   ```
+   streamlit run app.py
+   ```
 
-# Convert button
-if st.button("Convert"):
-    # Conversion logic here...
-Dependencies
+2. Open the provided URL in your web browser.
 
-Streamlit
-Requests
+3. Enter the amount you want to convert in the "Amount" field.
 
-API Used
-This app uses the Frankfurter API for currency conversion rates.
-Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check issues page.
-License
-MIT
-Contact
-Your Name - @yourtwitter - email@example.com
-Project Link: https://github.com/yourusername/frankfurter-api-currency-converter
+4. Select the base currency (from) and the target currency (to) using the dropdown menus.
+
+5. Click the "Convert" button to perform the currency conversion.
+
+6. The converted amount will be displayed below the button.
+
+## Dependencies
+
+- Python 3.x
+- Streamlit
+- requests
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [Frankfurter API](https://www.frankfurter.app/) for providing the currency exchange rates
+- [Streamlit](https://streamlit.io/) for the web application framework
