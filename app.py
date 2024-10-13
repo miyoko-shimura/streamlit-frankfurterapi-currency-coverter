@@ -43,5 +43,3 @@ st.warning(
     Please note that the exchange rates provided by the Frankfurter API are subject to change without notice and may not reflect the actual rates used in real-world currency transactions.
     """
 )
-
-Version 3 of 3
