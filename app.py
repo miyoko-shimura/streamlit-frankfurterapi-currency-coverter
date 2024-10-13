@@ -4,7 +4,7 @@ import requests
 st.title("Frankfurter API Currency Converter")
 
 # Input fields
-amount = st.text_input("Amount", value="0.00")
+amount = st.text_input("Amount", value="1.00")
 try:
     amount = float(amount)
     if amount < 0:
