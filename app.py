@@ -33,6 +33,7 @@ if st.button("Convert"):
 
 st.write("---")
 st.write("Acknowledgements: Exchange rates provided by the [Frankfurter API](https://www.frankfurter.app/). ")
+st.write("")
 
 st.warning(
     """
