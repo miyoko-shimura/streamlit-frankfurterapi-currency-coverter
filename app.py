@@ -12,7 +12,7 @@ try:
 except ValueError:
     st.error("Please enter a valid number.")
 base_currency = st.selectbox("From", ["JPY", "EUR", "GBP", "USD"])
-target_currency = st.selectbox("To", ["EUR", "GBP", "USD", "JPY"])
+target_currency = st.selectbox("To", ["USD", "GBP", "EUR", "JPY"])
 
 # Convert button
 if st.button("Convert"):
