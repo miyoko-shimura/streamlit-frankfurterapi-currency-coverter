@@ -53,9 +53,5 @@ st.warning(
     This application uses the Frankfurter API to retrieve currency exchange rates. The application is provided 
     in accordance with the terms of use of the Frankfurter API. The provider of the Frankfurter API shall not be 
     liable for any damages arising from the use of the API.
-
-　　Please note that the exchange rates provided by the Frankfurter API may differ from rates available on other
-  　websites due to various factors such as update frequency, data sources, rate types, fees, and calculation methods. 
-    The rates displayed by this currency converter should be used as a general reference only and may not reflect the actual rates used in real-world transactions.
     """
 )
