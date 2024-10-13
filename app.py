@@ -4,7 +4,13 @@ import requests
 st.title("Frankfurter API Currency Converter")
 
 # Input fields
-amount = st.number_input("Amount", min_value=0.01, value=1.00, step=0.01)
+amount = st.text_input("Amount", value="0.00")
+try:
+    amount = float(amount)
+    if amount < 0:
+        st.error("Please enter a non-negative amount.")
+except ValueError:
+    st.error("Please enter a valid number.")
 base_currency = st.selectbox("From", ["USD", "EUR", "GBP", "JPY"])
 target_currency = st.selectbox("To", ["EUR", "GBP", "JPY", "USD"])
 
