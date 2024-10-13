@@ -37,7 +37,7 @@ st.write("Acknowledgements: Exchange rates provided by the [Frankfurter API](htt
 st.warning(
     """
     **Legal Disclaimer**
-    
+     
     The information provided by this currency converter is for general informational purposes only. 
     While we strive to keep the information up to date and correct, we make no representations or 
     warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, 
@@ -49,7 +49,8 @@ st.warning(
     loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in 
     connection with, the use of this currency converter.
     
-    Please note that the exchange rates provided by the Frankfurter API are subject to change without notice and 
-    may not reflect the actual rates used in real-world currency transactions.
+    This application uses the Frankfurter API to retrieve currency exchange rates. The application is provided 
+    in accordance with the terms of use of the Frankfurter API. The provider of the Frankfurter API shall not be 
+    liable for any damages arising from the use of the API.
     """
 )
